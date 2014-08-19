@@ -1,5 +1,5 @@
 {
-  "name": "form-errors",
+  "name": "form-error",
   "version": "0.1.0",
   "description": "A javascript object for aggregating user errors.",
   "main": "form_error.js",
