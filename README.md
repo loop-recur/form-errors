@@ -1,6 +1,8 @@
 form-errors
 ===========
 
+[![Build Status](https://travis-ci.org/loop-recur/form-errors.svg?branch=master)](https://travis-ci.org/loop-recur/form-errors)
+
 A javascript object for aggregating user errors on forms.
 
 Installation
