@@ -18,7 +18,7 @@ Usage
 -----
 
 FormError doesn't help you validate your forms. It helps you aggregate the all the
-validation failures you find when your users inevitably make mistakes. You start by requiring it.
+validation failures you find when your users inevitably make mistakes.
 
 All methods below return an object that is an `instanceof FormError`. They all return
 new objects and have no other effects.
