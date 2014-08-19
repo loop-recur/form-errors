@@ -1,6 +1,8 @@
 form-errors
 ===========
 
+[![browser support](https://ci.testling.com/loop-recur/form-errors.png)
+](https://ci.testling.com/loop-recur/form-errors)
 [![Build Status](https://travis-ci.org/loop-recur/form-errors.svg?branch=master)](https://travis-ci.org/loop-recur/form-errors)
 
 A javascript object for aggregating user errors on forms.
