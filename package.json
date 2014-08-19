@@ -1,0 +1,32 @@
+{
+  "name": "form-errors",
+  "version": "0.0.0",
+  "description": "A javascript object for aggregating user errors.",
+  "main": "form_error.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loop-recur/form-errors.git"
+  },
+  "keywords": [
+    "error",
+    "validation",
+    "form"
+  ],
+  "author": "Adam C. Baker <adam.durandal@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/loop-recur/form-errors/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.21.4",
+    "claire": "~0.4.1",
+    "lodash": "~2.4.1"
+  }
+}
