@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script src="../node_modules/chai/chai.js"></script>
+    <script src="../form_error.js"></script>
+    <script>
+      mocha.ui('bdd');
+      mocha.reporter('html');
+      assert = chai.assert;
+
+      describe('global export', function(){
+        it('exports the expected interface', function(){
+          assert.isFunction(FormError)
+          assert.instanceOf(FormError.id, FormError);
+          assert.isFunction(FormError.empty);
+          assert.isFunction(FormError.fromObject);
+        });
+
+        it('exports the expected prototype', function(){
+          var proto = FormError.prototype;
+          assert.isFunction(proto.concat);
+          assert.instanceOf(proto.id, FormError);
+          assert.isFunction(proto.empty);
+        });
+      });
+    </script>
+    <script>
+       mochaPhantomJS.run();
+    </script>
+  </body>
+</html>
