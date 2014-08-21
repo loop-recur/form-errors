@@ -10,13 +10,37 @@ A javascript object for aggregating user errors on forms.
 Installation
 ------------
 
+### Node
 `npm install form-error`
 
 then
 
 `var FormError = require('form-error');`
 
-TODO: Make an AMD/browser global build and publish on bower
+### AMD / browser global
+
+`bower install form-error`
+
+then
+
+```javascript
+require.config({
+  paths: {
+    "form-error": "path/to/form-error",
+  }
+});
+define(["form-error"], function (FormError) {
+  //aggregate those errors.
+});
+```
+
+Or, if you're stuck in the bad old days of managing dependencies by hand and
+exporting dependencies through `window`
+
+```html
+<script src="path/to/form-error.js"></script>
+<script> /*use window.FormError*/ </script>
+```
 
 Usage
 -----
