@@ -1,0 +1,28 @@
+{
+  "name": "form-error",
+  "version": "0.1.0",
+  "homepage": "https://github.com/loop-recur/form-errors",
+  "authors": [
+    "Adam C. Baker <adam.durandal@gmail.com>"
+  ],
+  "description": "A javascript object for aggregating user errors on forms.",
+  "main": "form_error.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "form",
+    "error",
+    "validation"
+  ],
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
